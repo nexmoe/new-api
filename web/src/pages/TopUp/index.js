@@ -293,7 +293,7 @@ const TopUp = () => {
                     }}
                   />
                   <Space>
-                    <Button
+                    {/* <Button
                       type={'primary'}
                       theme={'solid'}
                       onClick={async () => {
@@ -301,7 +301,7 @@ const TopUp = () => {
                       }}
                     >
                       {t('支付宝')}
-                    </Button>
+                    </Button> */}
                     <Button
                       style={{
                         backgroundColor: 'rgba(var(--semi-green-5), 1)',

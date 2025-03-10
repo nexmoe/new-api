@@ -144,12 +144,12 @@ const HeaderBar = () => {
       externalLink: docsLink,
       icon: <IconHelpCircle style={headerIconStyle} />,
     }] : []),
-    {
-      text: t('关于'),
-      itemKey: 'about',
-      to: '/about',
-      icon: <IconInfoCircle style={headerIconStyle} />,
-    },
+    // {
+    //   text: t('关于'),
+    //   itemKey: 'about',
+    //   to: '/about',
+    //   icon: <IconInfoCircle style={headerIconStyle} />,
+    // },
   ];
 
   async function logout() {
