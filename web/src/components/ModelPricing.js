@@ -328,7 +328,7 @@ const ModelPricing = () => {
   return (
     <>
       <Layout>
-        {userState.user ? (
+        {/* {userState.user ? (
           <Banner
             type="success"
             fullMode={false}
@@ -348,14 +348,14 @@ const ModelPricing = () => {
             })}
           />
         )}
-        <br/>
-        <Banner 
+        <br/> */}
+        {/* <Banner 
             type="info"
             fullMode={false}
             description={<div>{t('按量计费费用 = 分组倍率 × 模型倍率 × （提示token数 + 补全token数 × 补全倍率）/ 500000 （单位：美元）')}</div>}
             closeIcon="null"
         />
-        <br/>
+        <br/> */}
         <Space style={{ marginBottom: 16 }}>
           <Input
             placeholder={t('模糊搜索模型名称')}
